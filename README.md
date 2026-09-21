@@ -40,7 +40,7 @@ O objetivo principal é classificar indivíduos entre **Saudável** (classe 0) e
    * Padronização das *features* via `StandardScaler`.
 
 2. **Arquitetura da Rede Neural (Keras / TensorFlow):**
-   * **Camada de Entrada:** 10 neurônios (atributos clínicos).
+   * **Camada de Entrada:** 10 atributos.
    * **1ª Camada Oculta:** 32 neurônios com ativação `ReLU`.
    * **2ª Camada Oculta:** 16 neurônios com ativação `ReLU`.
    * **Camada de Saída:** 1 neurônio com ativação `Sigmoid` (probabilidade do diagnóstico).
